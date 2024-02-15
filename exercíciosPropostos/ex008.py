@@ -1,4 +1,7 @@
 valMetro = float(input('Digite um valor em metros: '))
-
+print(f'O valor convertido em  kilometros é {valMetro/1000}')
+print(f'O valor convertido em  hectômetro é {valMetro/100}')
+print(f'O valor convertido em  decâmetro é {valMetro/10}')
+print(f'O valor convertido em decimetros é {valMetro*10:.2f}')
 print(f'O valor convertido em centimetros é {valMetro*100:.2f}')
 print(f'O valor convertido em milimetros é {valMetro*1000:.2f}')
