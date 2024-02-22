@@ -13,6 +13,4 @@ elif condPag == 3:
     print(f'O valor do produto é {precoProd}')
 else:
     print(f'O valor do produto é: {precoProd + (precoProd*20/100)}')
-
-
-
+    
