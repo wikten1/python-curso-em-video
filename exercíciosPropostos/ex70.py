@@ -22,12 +22,12 @@ while resp == 'S':
     soma += valor
     cont += 1
     
-    resp = input("Deseja contiar (S/N): ")
+    resp = input("Deseja contiar (S/N): ").upper()
     
 print(f"O total da compra é: {soma}")
 
 print(f"O nome do produto mais barato é: {nomeMaisBarato}")
 
-print(f'A quantidade de produtos maior que mil reais: {soma}')
+print(f'A quantidade de produtos maior que mil reais: {maiorQueMil}')
     
     
