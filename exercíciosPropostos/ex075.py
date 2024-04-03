@@ -6,8 +6,12 @@ pares = 0
 
 tupla = (n1, n2, n3, n4)
 
+print(f'Você digitou os valores: {tupla}')
 print(f'O valor 9 apareceu {tupla.count(9)} vezes')
-print(f'O primeiro valor 3 foi digitado no indice {tupla.index(3)}')
+if 3 in tupla:
+    print(f'O primeiro valor 3 foi digitado no indice {tupla.index(3)}')
+else:
+    print("O valor 3 não foi digitado")
 print(f'Os números pares da tupla são: ')
 for i in tupla:
     if i % 2 == 0:
