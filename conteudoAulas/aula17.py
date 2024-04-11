@@ -29,6 +29,7 @@ for c, v in enumerate(valores):
 print('Cheguei ao final da lista.')
 '''
 
+
 a = [2,3,4,6]
 b = a[:] #Copia todos os valores de a para b e não cria uma ligação entre as listas.
 b[2]= 8
